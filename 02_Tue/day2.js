@@ -1,17 +1,17 @@
-function isFactor() {
-    var startNum = 12;
-    var factor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// function isFactor() {
+//     var startNum = 12;
+//     var factor = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
-    factor.forEach(function(e) {
-        if (e != 0) {
-            if (startNum % e == 0) {
-                console.log(`${e} is a factor of ${startNum}`);
-            } else {
-                console.log(`${e} is not a factor of ${startNum}`);
-            }
-        }
-    });
-}
+//     factor.forEach(function(e) {
+//         if (e != 0) {
+//             if (startNum % e == 0) {
+//                 console.log(`${e} is a factor of ${startNum}`);
+//             } else {
+//                 console.log(`${e} is not a factor of ${startNum}`);
+//             }
+//         }
+//     });
+// }
 
 function isFactor() {
     num = 12;
